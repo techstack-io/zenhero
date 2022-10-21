@@ -5,7 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'dosis': ['Dosis', 'sans-serif'] 
+      },
+      colors: {
+        'blue-bayou':'#1069B2',
+      }
+    },
   },
   plugins: [],
 }
