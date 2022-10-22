@@ -11,6 +11,8 @@ module.exports = {
       },
       colors: {
         'blue-bayou':'#1069B2',
+        'pure-blue': '#1C4ED8',
+        'navy-blue': '#1F2937',
       }
     },
   },
