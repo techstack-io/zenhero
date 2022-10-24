@@ -8,10 +8,8 @@ export default function Header() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet" />
+        <script src="../path/to/flowbite/dist/flowbite.js"></script>
         <meta name="description" content="Find your inner Zen Hero" />
         <meta
           name="keywords"
@@ -19,16 +17,16 @@ export default function Header() {
         />
       </section>
       <header>
-        <h2 className="text-pure-blue mb-4 text-6xl md:text-6xl text-3xl text-center font-heading font-dosis tracking-px-n">
+        <h2 className="text-pure-blue mb-4 text-6xl md:text-6xl text-3xl text-center font-heading font-titan-one tracking-px-n">
           <img
-            src="img/logo-2.svg"
-            className="inline-block p-4"
+            src="img/logo-3.svg"
+            className="inline-block p-2"
             alt="image"
             loading="lazy"
-            width="100"
-            height="100"
+            width="200"
+            height="200"
           />
-          Become a Zen Hero
+          ZEN HERO
         </h2>
         {/* Breadcrumbs */}
         <nav
@@ -38,7 +36,7 @@ export default function Header() {
           <ol class="inline-flex items-center space-x-1 md:space-x-3">
             <li class="inline-flex items-center">
               <a
-                href="#"
+                href="/"
                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
               >
                 <svg
@@ -67,7 +65,7 @@ export default function Header() {
                   ></path>
                 </svg>
                 <a
-                  href="#"
+                  href="/intro"
                   class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white"
                 >
                   Intro

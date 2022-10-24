@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'dosis': ['Dosis', 'sans-serif'] 
+        'dosis': ['Dosis', 'sans-serif'], 
+        'titan-one': ['Titan One', 'cursive']
       },
       colors: {
         'blue-bayou':'#1069B2',
@@ -16,5 +17,4 @@ module.exports = {
       }
     },
   },
-  plugins: [],
 }
