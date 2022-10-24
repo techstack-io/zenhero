@@ -1,14 +1,5 @@
 {
     "eslint.enable": false,
     "jshint.enable": false,
-    "standard.enable": false,
-    "workbench.colorCustomizations": {
-        "statusBar.foreground": "#FFE7FD",
-        "statusBar.background": "#9A3090",
-        "statusBarItem.hoverBackground": "#722951",
-        "statusBarItem.remoteForeground": "#FFD5DD",
-        "statusBarItem.remoteBackground": "#A6374D",
-        "statusBar.debuggingForeground": "#2D0029",
-        "statusBar.debuggingBackground": "#D166C7"
-    }
+    "standard.enable": false
 }
