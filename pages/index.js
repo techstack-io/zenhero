@@ -1,9 +1,8 @@
-import Header from "../components/Header";
+import Articles from "../components/Articles";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <section className="container px-4 mx-auto">
         <div className="lg:flex flex-row lg:gap-12 py-24">
           <div className="">

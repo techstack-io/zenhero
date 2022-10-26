@@ -1,8 +1,9 @@
+import React from "react";
 
-export default function Intro() {
+function Articles() {
   return (
     <>
-      <section class="relative pt-16 bg-blueGray-50">
+    <section class="relative pt-16 bg-blueGray-50">
   <div class="container mx-auto">
     <div class="flex flex-wrap items-center">
       <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
@@ -13,6 +14,7 @@ export default function Intro() {
             alt="image"
             loading="lazy"
           />
+
           <blockquote class="relative p-8 mb-4">
             <h4 class="text-xl font-bold text-white">
               Great for your awesome project
@@ -25,6 +27,7 @@ export default function Intro() {
           </blockquote>
         </div>
       </div>
+
       <div class="w-full md:w-6/12 px-4">
         <div class="flex flex-wrap">
           <div class="w-full md:w-6/12 px-4">
@@ -136,3 +139,5 @@ export default function Intro() {
     </>
   );
 }
+
+export default Articles;

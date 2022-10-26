@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.12",
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.3.2",
     "next": "12.3.1",
