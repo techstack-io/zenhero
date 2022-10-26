@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Navbar from "./Nav";
+
 
 export default function Header() {
   return (
@@ -17,30 +19,20 @@ export default function Header() {
         />
       </section>
       <header>
-        <h2 className="text-pure-blue mb-4 text-6xl md:text-6xl text-3xl text-center font-heading font-titan-one tracking-px-n">
-          <img
-            src="img/logo-3.svg"
-            className="inline-block p-2"
-            alt="image"
-            loading="lazy"
-            width="200"
-            height="200"
-          />
-          ZEN HERO
-        </h2>
+        <Navbar />
         {/* Breadcrumbs */}
         <nav
-          class="flex px-5 py-3 text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+          className="flex px-5 py-3 text-gray-700 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
           aria-label="Breadcrumb"
         >
-          <ol class="inline-flex items-center space-x-1 md:space-x-3">
-            <li class="inline-flex items-center">
+          <ol className="inline-flex items-center space-x-1 md:space-x-3">
+            <li className="inline-flex items-center">
               <a
                 href="/"
-                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
               >
                 <svg
-                  class="w-4 h-4 mr-2"
+                  className="w-4 h-4 mr-2"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -51,9 +43,9 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
-                  class="w-6 h-6 text-gray-400"
+                  className="w-6 h-6 text-gray-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,16 +58,16 @@ export default function Header() {
                 </svg>
                 <a
                   href="/intro"
-                  class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white"
+                  className="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white"
                 >
                   Intro
                 </a>
               </div>
             </li>
             <li aria-current="page">
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
-                  class="w-6 h-6 text-gray-400"
+                  className="w-6 h-6 text-gray-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +78,7 @@ export default function Header() {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2 dark:text-gray-400">
+                <span className="ml-1 text-sm font-medium text-gray-500 md:ml-2 dark:text-gray-400">
                   Events
                 </span>
               </div>
