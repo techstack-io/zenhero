@@ -4,17 +4,17 @@ import { Navbar } from "flowbite-react";
 export default function Nav() {
   return (
     <>
-      <Navbar fluid={true} rounded={true}>
+      <Navbar fluid={true} rounded={false} className="bg-gray-900">
         <Navbar.Brand href="/">
           <img
-            src="img/logo-5.svg"
-            className="inline-block"
+            src="img/logo-6.svg"
+            className="inline-block p-4"
             alt="image"
             loading="lazy"
             width="125"
             height="125"
           />
-          <span className="lg:font-titan-one lg:text-5xl text-pure-blue font-titan-oneself-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          <span className="lg:font-titan-one lg:text-5xl text-gray-200 font-titan-oneself-center whitespace-nowrap text-xl">
             ZEN HERO
           </span>
         </Navbar.Brand>

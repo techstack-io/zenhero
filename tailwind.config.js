@@ -18,6 +18,7 @@ module.exports = {
         'blue-bayou':'#1069B2',
         'pure-blue': '#1C4ED8',
         'navy-blue': '#1F2937',
+        'cool-gray': '#F9FAFB',
       }
     },
   },
