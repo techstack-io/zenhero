@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Navbar } from "flowbite-react";
+import Dropdown from "../components/Dropdown"
 
 export default function Nav() {
   return (
@@ -17,6 +18,7 @@ export default function Nav() {
           <span className="lg:font-titan-one lg:text-5xl text-pure-blue font-titan-oneself-center whitespace-nowrap text-xl">
             ZEN HERO
           </span>
+          <Dropdown />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>

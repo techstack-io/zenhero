@@ -1,59 +1,54 @@
-
-
 export default function Showcase() {
   return (
     <>
-    <div class="flex h-screen">
-  <div class="flex-1 flex flex-col overflow-hidden">
-    <header class="flex justify-between items-center p-8">
-    </header>
-    <div class="flex h-full">
-      <main class="flex flex-col w-full bg-white overflow-x-hidden overflow-y-auto mb-14">
-        <div class="flex lg:w-3/4 mx-auto px-6 py-8">
-          <div class="flex flex-col w-full h-full">
-          <div className="relative bg-gray-800">
-      <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-        <img
-          className="h-full w-full object-cover"
-          src="img/zenbt.svg"
-          alt=""
-        />
-      </div>
-      <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <div className="md:ml-auto md:w-1/2 md:pl-10">
-          <h2 className="text-lg font-semibold text-gray-300">Award winning support</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</p>
-          <p className="mt-3 text-lg text-gray-300">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
-            scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum
-            tincidunt duis.
-          </p>
-          <div className="mt-8">
-            <div className="inline-flex rounded-md shadow">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
-              >
-                Visit the help center
-             
-              </a>
+      <div class="flex h-screen">
+        <div class="flex-1 flex flex-col overflow-hidden">
+          <header class="flex justify-between items-center p-8"></header>
+          <section class="bg-white dark:bg-gray-900">
+            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+              <div class="mr-auto place-self-center lg:col-span-7">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                  Featured Event
+                </h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                Sound Bath Meditation with Crystal Singing Bowls & Gong.
+                </p>
+                <a
+                  href="#"
+                  class="bg-pure-blue inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+                >
+                  Sign Up!
+                  <svg
+                    class="w-5 h-5 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+                >
+                  Other Events
+                </a>
+              </div>
+              <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                <img
+                  src="img/featuredevent-img.svg"
+                  className="w-1/2 h-auto"
+                  alt="mockup"
+                />
+              </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
-    </div>
-            <div class="flex w-full max-w-xl h-60 items-center justify-center mx-auto bg-green-400 border-b border-gray-600">Post</div>
-            <div class="flex w-full max-w-xl h-60 items-center justify-center mx-auto bg-green-400 border-b border-gray-600">Post</div>
-            <div class="flex w-full max-w-xl h-60 items-center justify-center mx-auto bg-green-400 border-b border-gray-600">Post</div>
-            <div class="flex w-full max-w-xl h-60 items-center justify-center mx-auto bg-green-400 border-b border-gray-600">Post</div>
-          </div>
-        </div>
-      </main>
-    </div>
-  </div>
-</div>
-
-
     </>
-  )
+  );
 }
