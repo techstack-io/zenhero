@@ -12,7 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'dosis': ['Dosis', 'sans-serif'], 
-        'titan-one': ['Titan One', 'cursive']
+        'titan-one': ['Titan One', 'cursive'],
+        'signika-negative': ['Signika Negative', 'sans-serif'],
+        'barlow-condensed': ['Barlow Condensed', 'sans-serif'],
       },
       colors: {
         'blue-bayou':'#1069B2',

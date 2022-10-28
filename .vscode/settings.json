@@ -3,12 +3,12 @@
     "jshint.enable": false,
     "standard.enable": false,
     "workbench.colorCustomizations": {
-        "statusBar.foreground": "#FFD3A3",
-        "statusBar.background": "#895113",
-        "statusBarItem.hoverBackground": "#50480D",
-        "statusBarItem.remoteForeground": "#D3F482",
-        "statusBarItem.remoteBackground": "#507100",
+        "statusBar.foreground": "#9EFFB8",
+        "statusBar.background": "#148632",
+        "statusBarItem.hoverBackground": "#145D40",
+        "statusBarItem.remoteForeground": "#95FCFB",
+        "statusBarItem.remoteBackground": "#137978",
         "statusBar.debuggingForeground": "#000000",
-        "statusBar.debuggingBackground": "#BF874A"
+        "statusBar.debuggingBackground": "#4BBD69"
     }
 }
