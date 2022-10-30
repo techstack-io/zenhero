@@ -15,13 +15,16 @@ module.exports = {
         'titan-one': ['Titan One', 'cursive'],
         'signika-negative': ['Signika Negative', 'sans-serif'],
         'barlow-condensed': ['Barlow Condensed', 'sans-serif'],
+        'amiri': ['Amiri', 'serif']
       },
       colors: {
         'blue-bayou':'#1069B2',
         'pure-blue': '#1C4ED8',
         'navy-blue': '#1F2937',
         'cool-gray': '#F9FAFB',
-      }
+      },
+      keyframes: {},
+      animation: {},
     },
   },
 }

@@ -1,19 +1,25 @@
-import Showcase from "../components/Showcase";
+import Animation2 from "../components/Animation2";
+import Bounce from '../components/Bounce'
 
 export default function Intro() {
   return (
     <>
-     <center>
-     <video controls src={"img/video.mp4"} className="w-1/2 pt-12"/>
-     <img
-            src="img/box-1.svg"
-            className="inline-block p-4"
-            alt="image"
-            loading="lazy"
-            width="125"
-            height="125"
-          />
-     </center>
+    <section className="container -mx-2 lg:mx-48">
+      <div className="lg:flex flex-row py-24">
+       <h1 className="font-amiri text-gray-800 text-2xl mx-10 my-2 lg:text-4xl lg:mx-24">Our mind has 8 aspects, or</h1>
+       <h1 className="font-titan-one text-pure-blue text-2xl lg:pt-2 lg:text-4xl lg:-mx-20 mx-20 animate-pulse">
+        "consciousnesses"
+        </h1>
+        <br/>
+        <div>
+        <h1 className="text-3xl p-4 lg:text-6xl lg:-mx-80 lg:my-20 ">...and 4 levels</h1>
+        </div>
+      
+          <Animation2 />
+      </div>
+    </section>
+      
     </>
   );
 }
+
