@@ -1,5 +1,5 @@
 import Lottie from "react-lottie";
-import animationData from "../lib/lottie/lf30_editor_fqh7xbud.json";
+import animationData from "../lib/lottie/float.json";
 
 function Animation2() {
   const defaultOptions = {

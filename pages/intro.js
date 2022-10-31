@@ -1,5 +1,4 @@
 import Animation2 from "../components/Animation2";
-import Bounce from '../components/Bounce'
 
 export default function Intro() {
   return (

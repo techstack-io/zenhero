@@ -8,17 +8,24 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.11.6",
     "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^2.0.12",
+    "@remotion/cli": "^3.2.40",
+    "@remotion/eslint-plugin": "^3.2.40",
+    "@remotion/lottie": "^3.2.40",
+    "@remotion/player": "^3.2.40",
+    "@remotion/renderer": "^3.2.40",
     "eslint-config-next": "^13.0.0",
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.3.2",
     "lottie-react": "^2.3.1",
+    "lottie-web": "^5.9.6",
     "next": "^13.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-lottie": "^1.2.3",
-    "react-reveal": "^1.2.2"
+    "remotion": "^3.2.40"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
