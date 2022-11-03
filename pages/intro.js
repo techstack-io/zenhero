@@ -1,13 +1,12 @@
-import Motion from "../components/Motion"
-import BouncingBall from "../components/BouncingBall"
 
 export default function Intro() {
   return (
     <>
+    
     <section className="container -mx-2 lg:my-24 lg:mx-48">
       
-<video class="w-1/2 border" autoplay controls>
-  <source src="/img/8consciousnesses.mp4" type="video/mp4" />
+<video className="mx-2 lg:w-1/2 rounded-lg border" autoplay muted controls>
+  <source src="/img/countdown.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -66,8 +65,6 @@ export default function Intro() {
         <br/>
        <h1 className="text-2xl  text-center lg:absolute lg:-my-12">Our mind has 8 aspects. or "Consciousnesses"</h1>
         <div className="flex items-center">
-        <Motion />   
-        <BouncingBall />
         </div>
 
         <div>
