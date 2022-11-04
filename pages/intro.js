@@ -5,8 +5,8 @@ export default function Intro() {
     
     <section className="container -mx-2 lg:my-24 lg:mx-48">
       
-<video className="mx-2 lg:w-1/2 rounded-lg border" autoplay muted controls>
-  <source src="/img/countdown.mp4" type="video/mp4" />
+<video className="mx-2 lg:w-1/2 rounded-lg border" autoplay controls>
+  <source src="/img/consciousness2.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

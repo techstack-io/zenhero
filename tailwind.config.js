@@ -15,7 +15,8 @@ module.exports = {
         'titan-one': ['Titan One', 'cursive'],
         'signika-negative': ['Signika Negative', 'sans-serif'],
         'barlow-condensed': ['Barlow Condensed', 'sans-serif'],
-        'amiri': ['Amiri', 'serif']
+        'amiri': ['Amiri', 'serif'],
+        'zen-antique-soft': ['Zen Antique Soft', 'serif']
       },
       colors: {
         'blue-bayou':'#1069B2',
