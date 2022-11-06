@@ -1,12 +1,18 @@
-import Articles from "../components/Articles";
+import EventItem from "../components/EventItem";
 import {API_URL} from "../config/index"
 
 export default function Home({events}) {
+  
   return (
     <>
       <section className="container px-4 mx-auto">
       <h1 class="font-medium font-zen-antique-soft justify-center leading-tight text-4xl mt-12 -mb-20 lg:mb-2 text-blue-800">upcoming events:</h1>
-      {events.length === 0 && <h1 className="text-xl italic">No events found</h1> }
+      {events.length === 0 && <h3>No events to show</h3>}
+
+      {events.map((evt) => (
+        <EventItem key={evt.id} evt={evt} />
+      ))}
+
         <div className="lg:flex flex-row lg:gap-12 py-24">
           <div className="">
             <div className="rounded-lg shadow-lg bg-white max-w-sm">
