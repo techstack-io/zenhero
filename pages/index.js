@@ -1,11 +1,13 @@
 import EventItem from "../components/EventItem";
 import {API_URL} from "../config/index"
+import Pubs from "../components/Pubs"
 
 export default function Home({events}) {
   
   return (
     <>
       <section className="container px-4 mx-auto">
+      <Pubs />
       <h1 class="font-medium font-zen-antique-soft justify-center leading-tight text-4xl mt-12 -mb-20 lg:mb-2 text-blue-800">upcoming events:</h1>
       {events.length === 0 && <h3>No events to show</h3>}
 
