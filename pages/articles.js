@@ -1,4 +1,3 @@
-import Pubs from "../components/Pubs"
 
 const posts = [
   {
@@ -66,7 +65,6 @@ function classNames(...classes) {
 function Articles() {
   return (
     <>
-    <Pubs />
       <div className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
         <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
           <div>

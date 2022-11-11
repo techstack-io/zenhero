@@ -14,27 +14,27 @@
     },
     {
       "id": "2",
-      "name": "Boom Dance Festival Experience",
-      "slug": "boom-dance-festival-experience",
-      "venue": "Blackjacks",
+      "name": "What is the beginners meditation program about?",
+      "slug": "what-is-the-beginners-meditation-program-about",
+      "venue": "Online",
       "address": "966 Lexington Ave New York, New York(NY), 10021",
       "performers": "DJ LUCK & MC NEAT, NICKY BLACKMARKET, DJ NICKY BLACKMARKET, RATPACK",
-      "date": "June 2, 2021",
+      "date": "8/20/22, 9-10AM (CST)",
       "time": "8:00 PM EST",
-      "description": "It's looking more and more like we will be seeing events return in the summer! To celebrate this we are arranging a festival experience to say good bye to lock down! We will also be celebrating the fact Zoom Dance is one year old!",
-      "image": "/images/sample/event2.jpg"
+      "description": "Our info session is the easiest place to get to know what activities and lessons you will practice and learn in the beginners meditation classes. ",
+      "image": "/images/heartland.jpeg"
     },
     {
       "id": "3",
-      "name": "Encore Night Boat Party",
-      "slug": "encore-night-boat-party",
+      "name": "Foundation of Mindfulness classes.",
+      "slug": "foundation-of-mindfulness-classes",
       "venue": "Encore",
       "address": "675 Water St New York, New York(NY), 10002",
       "performers": "Bad Boy Bill",
       "date": "June 11, 2021",
       "time": "7:00 PM EST",
       "description": "Who is ready to party? I mean in the middle of the water, a boat with good music and drinks. If thats you then you have made it to the right place.",
-      "image": "/images/sample/event3.jpg"
+      "image": "/images/zlmc.png"
     },
     {
       "id": "4",
