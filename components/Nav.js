@@ -5,7 +5,7 @@ import Dropdown from "../components/Dropdown"
 export default function Nav() {
   return (
     <>
-      <Navbar fluid={true} rounded={false} className="bg-gray-50 shadow-xl">
+      <Navbar fluid={true} rounded={false} className="shadow-md">
         <Navbar.Brand href="/">
           <img
             src="img/logo-6.svg"
