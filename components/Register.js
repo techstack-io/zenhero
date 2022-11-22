@@ -1,5 +1,4 @@
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import toast, { Toaster } from 'react-hot-toast';
 import { useState, useEffect, useContext } from "react";
 import Link from "next/link";
 
@@ -13,9 +12,10 @@ function Register() {
     e.preventDefault()
 
     if (password !== passwordConfirm) {
-      toast.error('Passwords do not match. Please try again')
+      toast.error('Passwords do not match!')
       return
     }
+    console.log({ username, email, password })
   };
 
   return (
@@ -27,7 +27,6 @@ function Register() {
               <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                 Create an Account
               </h1>
-              <ToastContainer />
               <form className="space-y-4 md:space-y-6" action="#">
                 <div>
                   <label
@@ -124,11 +123,13 @@ function Register() {
                   </div>
                 </div>
                 <button
+                  onClick={handleSubmit}
                   type="submit"
                   className="w-full text-white bg-pure-blue hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                 >
                   Create an account
                 </button>
+                <Toaster />
                 <p className="text-sm font-light text-gray-500 ">
                   Already have an account?
                   <Link legacyBehavior href="/account/login">

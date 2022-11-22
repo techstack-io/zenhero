@@ -25,6 +25,7 @@ export default function Nav() {
           <Navbar.Link href="/" active={true}>
             Home
           </Navbar.Link>
+          <Navbar.Link href="/meditation">Zen Central</Navbar.Link>
           <Navbar.Link href="/articles">Articles</Navbar.Link>
           <Navbar.Link href="/events">Events</Navbar.Link>
           <Navbar.Link href="/navbars">Pricing</Navbar.Link>
