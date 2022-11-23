@@ -25,11 +25,10 @@ export default function Nav() {
           <Navbar.Link href="/" active={true}>
             Home
           </Navbar.Link>
-          <Navbar.Link href="/meditation">Zen Central</Navbar.Link>
+          <Navbar.Link href="/meditations">Meditations</Navbar.Link>
           <Navbar.Link href="/articles">Articles</Navbar.Link>
-          <Navbar.Link href="/events">Events</Navbar.Link>
-          <Navbar.Link href="/navbars">Pricing</Navbar.Link>
-          <Navbar.Link href="/navbars">Contact</Navbar.Link>
+          <Navbar.Link href="/pricing">Pricing</Navbar.Link>
+          <Navbar.Link href="/navbar">Contact</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </>

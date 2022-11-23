@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Meditation({ evt }) {
+export default function Meditations() {
   return (
     <>
       <div className="lg:flex flex-row lg:gap-12 py-24 lg:px-48">
@@ -10,7 +10,7 @@ export default function Meditation({ evt }) {
               <a href="#!">
                 <video
                   className="lg:mx-2 lg:w-full rounded-lg border"
-                  autoplay
+                  // autoPlay
                   controls
                 >
                   <source src="/img/graditude.mp4" type="video/mp4" />

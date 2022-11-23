@@ -1,9 +1,8 @@
-import EventItem from "../components/EventItem";
 import Register from "../components/Register"
 import Link from "next/link";
 import { API_URL } from "../config/index";
 
-export default function Home({ events }) {
+export default function Home() {
   return (
     <>
       <section className="container px-2 lg:my-12 mx-auto">
@@ -178,11 +177,11 @@ export default function Home({ events }) {
   );
 }
 
-export async function getServerSideProps() {
-  const res = await fetch(`${API_URL}/api/events`);
-  const events = await res.json();
+// export async function getServerSideProps() {
+//   const res = await fetch(`${API_URL}/api/events`);
+//   const events = await res.json();
 
-  return {
-    props: { events },
-  };
-}
+//   return {
+//     props: { events },
+//   };
+// }
